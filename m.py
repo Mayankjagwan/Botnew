@@ -111,7 +111,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID to add."
     else:
-        response = "𝘠𝘖𝘜 𝘊𝘈𝘕 𝘜𝘚𝘌 𝘛𝘏𝘐𝘚 𝘛𝘐𝘔𝘌 𝘗𝘓𝘌𝘈𝘚𝘌 𝘋𝘔 𝘖𝘞𝘕𝘌𝘙 ~ @Here_Sarcastic"
+        response = "𝘠𝘖𝘜 𝘊𝘈𝘕 𝘜𝘚𝘌 𝘛𝘏𝘐𝘚 𝘛𝘐𝘔𝘌 𝘗𝘓𝘌𝘈𝘚𝘌 𝘋𝘔 𝘖𝘞𝘕𝘌𝘙 ~ @Mayankjagwan01"
 
     bot.reply_to(message, response)
 
@@ -232,7 +232,7 @@ def handle_bgmi(message):
     if user_id in users:
         expiration_date = datetime.datetime.strptime(users[user_id], '%Y-%m-%d %H:%M:%S')
         if datetime.datetime.now() > expiration_date:
-            response = "❌ Access Denied Purcahse From @here_sarcastic ❌"
+            response = "❌ Access Denied Purcahse From @Mayankjagwan01 ❌"
             bot.reply_to(message, response)
             return
         
@@ -298,7 +298,7 @@ def show_command_logs(message):
         except FileNotFoundError:
             response = "No command logs found."
     else:
-        response = "𝘠𝘖𝘜 𝘊𝘈𝘕 𝘜𝘚𝘌 𝘛𝘏𝘐𝘚 𝘛𝘐𝘔𝘌 𝘗𝘓𝘌𝘈𝘚𝘌 𝘋𝘔 𝘖𝘞𝘕𝘌𝘙 ~ @Here_sarcastic"
+        response = "𝘠𝘖𝘜 𝘊𝘈𝘕 𝘜𝘚𝘌 𝘛𝘏𝘐𝘚 𝘛𝘐𝘔𝘌 𝘗𝘓𝘌𝘈𝘚𝘌 𝘋𝘔 𝘖𝘞𝘕𝘌𝘙 ~ @Mayankjagwan01"
 
     bot.reply_to(message, response)
 
@@ -313,7 +313,7 @@ def show_help(message):
 
  To See Admin Commands:
  /admincmd : Shows All Admin Commands.
- �҉�҉S4 OFFICIAL�҉�
+@Mayankjagwan01
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -328,7 +328,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"WÈLÇÖMÈ ßRÖ†HÈR \n{user_name}! \nFor Access Dm @Here_Sarcastic /help"
+    response = f"WÈLÇÖMÈ ßRÖ†HÈR \n{user_name}! \nFor Access Dm @Mayankjagwan01 /help"
     bot.reply_to(message, response)
 
 
@@ -346,7 +346,7 @@ By �҉�҉S4 OFFICIAL�҉�'''
 @bot.message_handler(commands=['plan'])
 def welcome_plan(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos BY �҉�҉S4 OFFICIAL�҉� !!:
+    response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos BY @Mayankjagwan01 !!:
 
 Vip :
 -> Attack Time : 300 (S)
@@ -357,7 +357,7 @@ Pr-ice List:
 Day-->150 Rs
 Week-->900 Rs
 Month-->1600 Rs
-�҉�҉S4 OFFICIAL�҉�
+@Mayankjagwan01
 '''
     bot.reply_to(message, response)
 
@@ -372,7 +372,7 @@ def welcome_plan(message):
 /logs : All Users Logs.
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
-�҉�҉S4 OFFICIAL�҉�
+@Mayankjagwan01
 '''
     bot.reply_to(message, response)
 
@@ -395,7 +395,7 @@ def broadcast_message(message):
         else:
             response = "Please Provide A Message To Broadcast."
     else:
-        response = "𝘠𝘖𝘜 𝘊𝘈𝘕 𝘜𝘚𝘌 𝘛𝘏𝘐𝘚 𝘛𝘐𝘔𝘌 𝘗𝘓𝘌𝘈𝘚𝘌 𝘋𝘔 𝘖𝘞𝘕𝘌𝘙 ~ @Here_Sarcastic"
+        response = "𝘠𝘖𝘜 𝘊𝘈𝘕 𝘜𝘚𝘌 𝘛𝘏𝘐𝘚 𝘛𝘐𝘔𝘌 𝘗𝘓𝘌𝘈𝘚𝘌 𝘋𝘔 𝘖𝘞𝘕𝘌𝘙 ~ @Mayankjagwan01"
 
     bot.reply_to(message, response)
 
